@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu - Mamta Bhojnalaya</title>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .menu-page {
+            padding: 120px 0 60px;
+            background: linear-gradient(135deg, #fff9e6 0%, #fff5d6 100%);
+        }
+        
+        .menu-header {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        
+        .menu-header h1 {
+            font-size: 48px;
+            color: #0d0d25;
+            margin-bottom: 20px;
+            font-family: 'Playfair Display', serif;
+        }
+        
+        .menu-section {
+            background: #ffffff;
+            border-radius: 20px;
+            padding: 30px;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+        
+        .menu-section h2 {
+            color: #ff8243;
+            font-size: 28px;
+            margin-bottom: 20px;
+            font-family: 'Playfair Display', serif;
+            border-bottom: 2px dashed #ff8243;
+            padding-bottom: 10px;
+        }
+        
+        .menu-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+            padding: 10px 0;
+            border-bottom: 1px dotted #ddd;
+        }
+        
+        .menu-item:last-child {
+            border-bottom: none;
+        }
+        
+        .item-name {
+            font-weight: 500;
+            color: #0d0d25;
+        }
+        
+        .item-price {
+            display: flex;
+            gap: 20px;
+        }
+        
+        .price-tag {
+            background: #ff8243;
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 14px;
+        }
+        
+        .back-to-home {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            background: #ff8243;
+            color: white;
+            padding: 15px 25px;
+            border-radius: 30px;
+            text-decoration: none;
+            box-shadow: 0 5px 15px rgba(255, 130, 67, 0.3);
+            transition: all 0.3s ease;
+        }
+        
+        .back-to-home:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(255, 130, 67, 0.4);
+            color: white;
+        }
+
+        @media (max-width: 768px) {
+            .menu-section {
+                padding: 20px;
+            }
+            
+            .menu-item {
+                flex-direction: column;
+                text-align: center;
+                gap: 10px;
+            }
+            
+            .item-price {
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="menu-page">
+        <div class="container">
+            <div class="menu-header">
+                <h1>Our Menu</h1>
+                <p>Authentic Indian Vegetarian Delights</p>
+            </div>
+
+            <div class="menu-section">
+                <h2>Paneer</h2>
+                <div class="menu-item">
+                    <span class="item-name">Matar Paneer</span>
+                    <div class="item-price">
+                        <span class="price-tag">Half: ₹80</span>
+                        <span class="price-tag">Full: ₹120</span>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <span class="item-name">Kaju Paneer</span>
+                    <div class="item-price">
+                        <span class="price-tag">Half: ₹120</span>
+                        <span class="price-tag">Full: ₹170</span>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <span class="item-name">Sahi Paneer</span>
+                    <div class="item-price">
+                        <span class="price-tag">Half: ₹80</span>
+                        <span class="price-tag">Full: ₹120</span>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <span class="item-name">Chola Paneer</span>
+                    <div class="item-price">
+                        <span class="price-tag">Half: ₹80</span>
+                        <span class="price-tag">Full: ₹120</span>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <span class="item-name">Kaju Kari</span>
+                    <div class="item-price">
+                        <span class="price-tag">Half: ₹100</span>
+                        <span class="price-tag">Full: ₹150</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-section">
+                <h2>Dal</h2>
+                <div class="menu-item">
+                    <span class="item-name">Dal Fry</span>
+                    <div class="item-price">
+                        <span class="price-tag">Half: ₹60</span>
+                        <span class="price-tag">Full: ₹90</span>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <span class="item-name">Dal Tadka</span>
+                    <div class="item-price">
+                        <span class="price-tag">Half: ₹70</span>
+                        <span class="price-tag">Full: ₹100</span>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <span class="item-name">Dal Paneer</span>
+                    <div class="item-price">
+                        <span class="price-tag">Half: ₹70</span>
+                        <span class="price-tag">Full: ₹100</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-section">
+                <h2>Rice</h2>
+                <div class="menu-item">
+                    <span class="item-name">Plain Rice</span>
+                    <div class="item-price">
+                        <span class="price-tag">Half: ₹30</span>
+                        <span class="price-tag">Full: ₹50</span>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <span class="item-name">Jeera Rice</span>
+                    <div class="item-price">
+                        <span class="price-tag">Half: ₹40</span>
+                        <span class="price-tag">Full: ₹60</span>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <span class="item-name">Masala Rice</span>
+                    <div class="item-price">
+                        <span class="price-tag">Half: ₹50</span>
+                        <span class="price-tag">Full: ₹70</span>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <span class="item-name">Lapeta</span>
+                    <div class="item-price">
+                        <span class="price-tag">Half: ₹60</span>
+                        <span class="price-tag">Full: ₹90</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-section">
+                <h2>Sabji</h2>
+                <div class="menu-item">
+                    <span class="item-name">Sev Masala</span>
+                    <div class="item-price">
+                        <span class="price-tag">Half: ₹60</span>
+                        <span class="price-tag">Full: ₹90</span>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <span class="item-name">Sev Bhaji</span>
+                    <div class="item-price">
+                        <span class="price-tag">Half: ₹70</span>
+                        <span class="price-tag">Full: ₹100</span>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <span class="item-name">Sev Tamatar</span>
+                    <div class="item-price">
+                        <span class="price-tag">Half: ₹60</span>
+                        <span class="price-tag">Full: ₹90</span>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <span class="item-name">Tamatar Masala</span>
+                    <div class="item-price">
+                        <span class="price-tag">Half: ₹60</span>
+                        <span class="price-tag">Full: ₹90</span>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <span class="item-name">Tamatar Chatni</span>
+                    <div class="item-price">
+                        <span class="price-tag">Half: ₹70</span>
+                        <span class="price-tag">Full: ₹90</span>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <span class="item-name">Khadi Pakoda</span>
+                    <div class="item-price">
+                        <span class="price-tag">Half: ₹60</span>
+                        <span class="price-tag">Full: ₹90</span>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <span class="item-name">Khadi Tadka</span>
+                    <div class="item-price">
+                        <span class="price-tag">Half: ₹70</span>
+                        <span class="price-tag">Full: ₹100</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-section">
+                <h2>Roti</h2>
+                <div class="menu-item">
+                    <span class="item-name">Tawa Roti</span>
+                    <div class="item-price">
+                        <span class="price-tag">₹6</span>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <span class="item-name">Tawa Butter Roti</span>
+                    <div class="item-price">
+                        <span class="price-tag">₹8</span>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <span class="item-name">Tandoori Roti</span>
+                    <div class="item-price">
+                        <span class="price-tag">₹7</span>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <span class="item-name">Tandoori Butter Roti</span>
+                    <div class="item-price">
+                        <span class="price-tag">₹8</span>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <span class="item-name">Lachha Paratha</span>
+                    <div class="item-price">
+                        <span class="price-tag">₹25</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-section">
+                <h2>Other</h2>
+                <div class="menu-item">
+                    <span class="item-name">Papad Dry</span>
+                    <div class="item-price">
+                        <span class="price-tag">₹20</span>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <span class="item-name">Papad Masala</span>
+                    <div class="item-price">
+                        <span class="price-tag">₹30</span>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <span class="item-name">Bati</span>
+                    <div class="item-price">
+                        <span class="price-tag">₹10</span>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <span class="item-name">Dahi</span>
+                    <div class="item-price">
+                        <span class="price-tag">Half: ₹30</span>
+                        <span class="price-tag">Full: ₹50</span>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <span class="item-name">Water Bottle</span>
+                    <div class="item-price">
+                        <span class="price-tag">Small: ₹10</span>
+                        <span class="price-tag">Large: ₹20</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="index.html" class="back-to-home">
+            <i class="uil uil-estate"></i> Back to Home
+        </a>
+    </div>
+
+    <script src="assets/js/bootstrap.min.js"></script>
+</body>
+</html> 
