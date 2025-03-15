@@ -3,6 +3,7 @@
 ![Mamta Bhojnalaya](logo.png)
 
 > A beautiful and responsive restaurant website showcasing the authentic flavors of Indian vegetarian cuisine. Built with modern web technologies and designed with love.
+<p align="center"><a href="https://yogesh-rebari.github.io/Indian-Restaurant-Website/">Click Here</a>, to visit the website.</p>
 
 ## ✨ Key Features
 
