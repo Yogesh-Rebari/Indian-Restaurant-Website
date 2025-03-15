@@ -1,6 +1,6 @@
-# 🍽️ Mamta Bhojnalaya - Modern Restaurant Website
+# 🍽️ Mamta Bhojnalaya - Modern Indian Restaurant Website
 
-![Mamta Bhojnalaya](preview.png)
+![Mamta Bhojnalaya](logo.png)
 
 > A beautiful and responsive restaurant website showcasing the authentic flavors of Indian vegetarian cuisine. Built with modern web technologies and designed with love.
 
